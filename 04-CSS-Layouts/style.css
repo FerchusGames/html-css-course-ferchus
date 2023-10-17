@@ -32,10 +32,6 @@ nav {
   font-size: 18px;
 }
 
-article {
-  margin-bottom: 60px;
-}
-
 .post-header {
   margin-bottom: 40px;
 }
@@ -197,6 +193,21 @@ h2::before {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+.row {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+
+article {
+  flex: 1;
+}
+
+aside {
+  flex: 0 0 300px;
 }
 
 button {
